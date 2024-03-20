@@ -78,8 +78,8 @@ const Footer = () => {
       </footer>
       <div className="legal">
         <p>
-          Copyright © 2024 Media Store | Powered by Media Store | This template
-          is made with <i className="fa fa-heart"></i> by Mohamed Tarek
+          Copyright © 2024 Media Store | Powered by Media Store | Made with{" "}
+          <i className="fa fa-heart"></i> by Mohamed Tarek
         </p>
       </div>
     </>

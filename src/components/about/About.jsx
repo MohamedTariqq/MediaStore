@@ -1,15 +1,14 @@
-import React from "react"
-import "./about.css"
-import Back from "../common/back/Back"
-import AboutCard from "./AboutCard"
+import React from "react";
+import "./about.css";
+import Back from "../common/back/Back";
 
 const About = () => {
   return (
     <>
-      <Back title='About Us' />
-      <AboutCard />
+      <Back title="About Us" />
+      waiting...
     </>
-  )
-}
+  );
+};
 
-export default About
+export default About;

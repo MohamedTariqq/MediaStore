@@ -1,7 +1,7 @@
 import React from "react";
-import OnlineCourses from "../services/OnlineCourses";
+import OnlineCourses from "../services/ServicesTwo";
 import Heading from "../common/heading/Heading";
-import "../services/courses.css";
+import "../services/Services.css";
 import { coursesCard } from "../../dummydata";
 
 const HAbout = () => {

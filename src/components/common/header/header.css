@@ -12,7 +12,7 @@
   color: black;
 }
 .head .icon:hover {
-  background-color: yellow;
+  background-color: #f8db00;
 }
 .start .button {
   color: black;
@@ -21,8 +21,9 @@
 /*--------head------------*/
 /*--------header------------*/
 header {
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: rgba(255, 255, 255, 0.533);
   margin: 0 30px;
+  border-radius: 15px;
 }
 header .nav {
   display: flex !important;

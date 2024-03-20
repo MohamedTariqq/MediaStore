@@ -1,8 +1,7 @@
 import React from "react";
-import "./courses.css";
-import { coursesCard } from "../../dummydata";
+import "./Services.css";
 
-const CoursesCard = () => {
+const Services = () => {
   return (
     <>
       <section className="coursesCard">
@@ -14,4 +13,4 @@ const CoursesCard = () => {
   );
 };
 
-export default CoursesCard;
+export default Services;

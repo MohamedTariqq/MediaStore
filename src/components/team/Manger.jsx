@@ -1,10 +1,10 @@
 import React from "react";
-import { team } from "../../dummydata";
+import { manager } from "../../dummydata";
 
-const TeamCard = () => {
+const Manager = () => {
   return (
     <>
-      {team.map((val) => (
+      {manager.map((val) => (
         <div className="items shadow">
           <div className="img">
             <img src={val.cover} alt="" />
@@ -24,4 +24,4 @@ const TeamCard = () => {
   );
 };
 
-export default TeamCard;
+export default Manager;

@@ -13,110 +13,150 @@ const MainServices = () => {
         <div className="container">
           <Heading subtitle="SERVICES" title="Browse Our Services" />
           <div className="content grid3">
-            <ul
-              className={click ? "mobile-nav" : "flexSB "}
-              onClick={() => setClick(true)}
-            >
-              <li>
-                <Link to="/ServiceOne">
-                  <div className="box">
-                    <div className="img">
-                      <img src={cover} alt="" />
-                      <img src={hoverCover} alt="" className="show" />
-                    </div>
-                    <h1>UI/UX Design Courses</h1>
-                    <span>View Services</span>
+            <div onClick={() => setClick(false)}>
+              <Link to="/Advertising">
+                <div className="box">
+                  <div className="img">
+                    <img src={cover} alt="" />
+                    <img src={hoverCover} alt="" className="show" />
                   </div>
-                </Link>
-              </li>
-            </ul>
-            <div className="box">
-              <div className="img">
-                <img src={cover} alt="" />
-                <img src={hoverCover} alt="" className="show" />
-              </div>
-              <h1>UI/UX Design Courses</h1>
-              <span>View Services</span>
+                  <h1>Advertising</h1>
+                  <span>View Services</span>
+                </div>
+              </Link>
             </div>
-            <div className="box">
-              <div className="img">
-                <img src={cover} alt="" />
-                <img src={hoverCover} alt="" className="show" />
-              </div>
-              <h1>UI/UX Design Courses</h1>
-              <span>View Services</span>
+
+            <div onClick={() => setClick(false)}>
+              <Link to="/Advertising">
+                <div className="box">
+                  <div className="img">
+                    <img src={cover} alt="" />
+                    <img src={hoverCover} alt="" className="show" />
+                  </div>
+                  <h1>Events Management</h1>
+                  <span>View Services</span>
+                </div>
+              </Link>
             </div>
-            <div className="box">
-              <div className="img">
-                <img src={cover} alt="" />
-                <img src={hoverCover} alt="" className="show" />
-              </div>
-              <h1>UI/UX Design Courses</h1>
-              <span>View Services</span>
+            <div onClick={() => setClick(false)}>
+              <Link to="/Advertising">
+                <div className="box">
+                  <div className="img">
+                    <img src={cover} alt="" />
+                    <img src={hoverCover} alt="" className="show" />
+                  </div>
+                  <h1>Design & Branding</h1>
+                  <span>View Services</span>
+                </div>
+              </Link>
             </div>
-            <div className="box">
-              <div className="img">
-                <img src={cover} alt="" />
-                <img src={hoverCover} alt="" className="show" />
-              </div>
-              <h1>UI/UX Design Courses</h1>
-              <span>View Services</span>
+            <div onClick={() => setClick(false)}>
+              <Link to="/Advertising">
+                <div className="box">
+                  <div className="img">
+                    <img src={cover} alt="" />
+                    <img src={hoverCover} alt="" className="show" />
+                  </div>
+                  <h1>Promotional Gifts</h1>
+                  <span>View Services</span>
+                </div>
+              </Link>
             </div>
-            <div className="box">
-              <div className="img">
-                <img src={cover} alt="" />
-                <img src={hoverCover} alt="" className="show" />
-              </div>
-              <h1>UI/UX Design Courses</h1>
-              <span>View Services</span>
+            <div onClick={() => setClick(false)}>
+              <Link to="/Advertising">
+                <div className="box">
+                  <div className="img">
+                    <img src={cover} alt="" />
+                    <img src={hoverCover} alt="" className="show" />
+                  </div>
+                  <h1>Production & Installation</h1>
+                  <span>View Services</span>
+                </div>
+              </Link>
             </div>
-            <div className="box">
-              <div className="img">
-                <img src={cover} alt="" />
-                <img src={hoverCover} alt="" className="show" />
-              </div>
-              <h1>UI/UX Design Courses</h1>
-              <span>View Services</span>
+            <div onClick={() => setClick(false)}>
+              <Link to="/Advertising">
+                <div className="box">
+                  <div className="img">
+                    <img src={cover} alt="" />
+                    <img src={hoverCover} alt="" className="show" />
+                  </div>
+                  <h1>Digital Printing</h1>
+                  <span>View Services</span>
+                </div>
+              </Link>
             </div>
-            <div className="box">
-              <div className="img">
-                <img src={cover} alt="" />
-                <img src={hoverCover} alt="" className="show" />
-              </div>
-              <h1>UI/UX Design Courses</h1>
-              <span>View Services</span>
+            <div onClick={() => setClick(false)}>
+              <Link to="/Advertising">
+                <div className="box">
+                  <div className="img">
+                    <img src={cover} alt="" />
+                    <img src={hoverCover} alt="" className="show" />
+                  </div>
+                  <h1>Digital Solutions</h1>
+                  <span>View Services</span>
+                </div>
+              </Link>
             </div>
-            <div className="box">
-              <div className="img">
-                <img src={cover} alt="" />
-                <img src={hoverCover} alt="" className="show" />
-              </div>
-              <h1>UI/UX Design Courses</h1>
-              <span>View Services</span>
+            <div onClick={() => setClick(false)}>
+              <Link to="/Advertising">
+                <div className="box">
+                  <div className="img">
+                    <img src={cover} alt="" />
+                    <img src={hoverCover} alt="" className="show" />
+                  </div>
+                  <h1>Billboards</h1>
+                  <span>View Services</span>
+                </div>
+              </Link>
             </div>
-            <div className="box">
-              <div className="img">
-                <img src={cover} alt="" />
-                <img src={hoverCover} alt="" className="show" />
-              </div>
-              <h1>UI/UX Design Courses</h1>
-              <span>View Services</span>
+            <div onClick={() => setClick(false)}>
+              <Link to="/Advertising">
+                <div className="box">
+                  <div className="img">
+                    <img src={cover} alt="" />
+                    <img src={hoverCover} alt="" className="show" />
+                  </div>
+                  <h1>Signage (indoor, outdoor)</h1>
+                  <span>View Services</span>
+                </div>
+              </Link>
             </div>
-            <div className="box">
-              <div className="img">
-                <img src={cover} alt="" />
-                <img src={hoverCover} alt="" className="show" />
-              </div>
-              <h1>UI/UX Design Courses</h1>
-              <span>View Services</span>
+            <div onClick={() => setClick(false)}>
+              <Link to="/Advertising">
+                <div className="box">
+                  <div className="img">
+                    <img src={cover} alt="" />
+                    <img src={hoverCover} alt="" className="show" />
+                  </div>
+                  <h1>Formatting Printing</h1>
+                  <span>View Services</span>
+                </div>
+              </Link>
             </div>
-            <div className="box">
-              <div className="img">
-                <img src={cover} alt="" />
-                <img src={hoverCover} alt="" className="show" />
-              </div>
-              <h1>UI/UX Design Courses</h1>
-              <span>View Services</span>
+            <div onClick={() => setClick(false)}>
+              <Link to="/Advertising">
+                <div className="box">
+                  <div className="img">
+                    <img src={cover} alt="" />
+                    <img src={hoverCover} alt="" className="show" />
+                  </div>
+                  <h1>Ecommerce</h1>
+                  <span>View Services</span>
+                </div>
+              </Link>
+            </div>
+            <div onClick={() => setClick(false)}>
+              <Link to="/Advertising">
+                <div className="box">
+                  <div className="img">
+                    <img src={cover} alt="" />
+                    <img src={hoverCover} alt="" className="show" />
+                  </div>
+                  <h1>Media Production</h1>
+                  <span>View Services</span>
+                </div>
+              </Link>
             </div>
           </div>
         </div>

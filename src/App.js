@@ -7,7 +7,7 @@ import Faq from "./components/faqs/Faqs";
 import Contact from "./components/contact/Contact";
 import Footer from "./components/common/footer/Footer";
 import Home from "./components/home/Home";
-import ServiceOne from "./components/pages/ServiceOne";
+import Advertising from "./components/pages/Advertising";
 import Services from "./components/services/ServicesHome";
 function App() {
   return (
@@ -21,7 +21,7 @@ function App() {
           <Route exact path="/team" component={Team} />
           <Route exact path="/faqs" component={Faq} />
           <Route exact path="/contact" component={Contact} />
-          <Route exact path="/ServiceOne" component={ServiceOne} />
+          <Route exact path="/Advertising" component={Advertising} />
         </Switch>
         <Footer />
       </Router>

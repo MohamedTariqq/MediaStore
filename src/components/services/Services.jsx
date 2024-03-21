@@ -5,9 +5,7 @@ const Services = () => {
   return (
     <>
       <section className="coursesCard">
-        <div className="container grid2">
-          <div>waiting...</div>
-        </div>
+        <div className="container grid2"></div>
       </section>
     </>
   );

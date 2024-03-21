@@ -12,7 +12,8 @@ const MainServices = () => {
       <section className="online">
         <div className="container">
           <Heading subtitle="SERVICES" title="Browse Our Services" />
-          <div className="content grid3">
+          {/* grid3 */}
+          <div className="content grid3">  
             <div onClick={() => setClick(false)}>
               <Link to="/Advertising">
                 <div className="box">

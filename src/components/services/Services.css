@@ -1,6 +1,7 @@
 /*-------------online---------*/
 .online {
   text-align: center;
+  margin-bottom: 5%;
 }
 .online .content {
   padding-top: 1px;
@@ -53,6 +54,12 @@
 .online .box:hover h1 {
   color: #fff;
 }
+
+a{
+  color: black;
+}
+
+
 
 /*-------------online---------*/
 @media screen and (max-width: 768px) {

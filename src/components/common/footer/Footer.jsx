@@ -1,5 +1,4 @@
 import React from "react";
-import { blog } from "../../../dummydata";
 import "./footer.css";
 
 const Footer = () => {
@@ -32,16 +31,15 @@ const Footer = () => {
             >
               <i className="fab fa-facebook-f icon"></i>
             </a>
-            <i className="fab fa-twitter icon"></i>
             <i className="fab fa-instagram icon"></i>
+            <i className="fab fa-tiktok icon"></i>
           </div>
           <div className="box link">
             <h3>Explore</h3>
             <ul>
               <li>About Us</li>
               <li>Services</li>
-              <li>Courses</li>
-              <li>Blog</li>
+
               <li>Contact us</li>
             </ul>
           </div>
@@ -49,7 +47,6 @@ const Footer = () => {
             <h3>Quick Links</h3>
             <ul>
               <li>Contact Us</li>
-              <li>Pricing</li>
               <li>Terms & Conditions</li>
               <li>Privacy</li>
               <li>Feedbacks</li>

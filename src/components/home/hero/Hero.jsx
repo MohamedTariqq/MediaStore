@@ -1,5 +1,6 @@
 import React from "react";
 import Heading from "../../common/heading/Heading";
+
 import "./Hero.css";
 
 const Hero = () => {
@@ -8,10 +9,7 @@ const Hero = () => {
       <section className="hero">
         <div className="container">
           <div className="row">
-            <Heading
-              subtitle="WELCOME TO MEDIA STORE"
-              title="Best Print And Design Expertise"
-            />
+            <Heading subtitle="" title="" />
           </div>
         </div>
       </section>

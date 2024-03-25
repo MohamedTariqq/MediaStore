@@ -19,11 +19,14 @@
   font-weight: bold;
 }
 /*--------head------------*/
-/*--------header------------*/
+/*--------header & Sticky------------*/
 header {
   background-color: rgba(255, 255, 255, 0.533);
   margin: 0 30px;
   border-radius: 15px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
 }
 header .nav {
   display: flex !important;
@@ -55,7 +58,12 @@ header ul li a:hover {
 @media screen and (max-width: 768px) {
   .start {
     clip-path: none;
+    top: 0;
   }
+  .head {
+    display: none;
+  }
+
   header {
     margin: 0;
     position: relative;
@@ -65,14 +73,15 @@ header ul li a:hover {
   }
   header ul li {
     margin-bottom: 20px;
+    color: yellow;
   }
   .toggle {
     display: block;
     background: none;
-    color: #fff;
+    color: #f2db2b;
     font-size: 30px;
     position: absolute;
-    right: 0;
+    right: 80px;
     top: -20px;
   }
   .mobile-nav {
@@ -80,6 +89,11 @@ header ul li a:hover {
     top: 7vh;
     left: 0;
     width: 100%;
-    background-color: #1eb2a6;
+    background-color: #fff;
+  }
+  header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
   }
 }

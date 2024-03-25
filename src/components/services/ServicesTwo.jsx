@@ -11,47 +11,49 @@ const MainServices = () => {
     <>
       <section className="online">
         <div className="container">
-          <Heading subtitle="SERVICES" title="Browse Our Services" />
           <div className="content grid3">
+            {/* Advertising&Markteing */}
             <div onClick={() => setClick(false)}>
-              <Link to="/Advertising">
+              <Link to="/Advertising&Marketing">
                 <div className="box">
                   <div className="img">
                     <img src={cover} alt="" />
                     <img src={hoverCover} alt="" className="show" />
                   </div>
-                  <h1>Advertising</h1>
+                  <h1>Advertising & Marketing</h1>
                   <span>View Services</span>
                 </div>
               </Link>
             </div>
-
+            {/* Events Management */}
             <div onClick={() => setClick(false)}>
-              <Link to="/Advertising">
+              <Link to="/Organizing-Events">
                 <div className="box">
                   <div className="img">
                     <img src={cover} alt="" />
                     <img src={hoverCover} alt="" className="show" />
                   </div>
-                  <h1>Events Management</h1>
+                  <h1>Organizing Events</h1>
                   <span>View Services</span>
                 </div>
               </Link>
             </div>
+            {/* Design & Production */}
             <div onClick={() => setClick(false)}>
-              <Link to="/Advertising">
+              <Link to="/Design&Production">
                 <div className="box">
                   <div className="img">
                     <img src={cover} alt="" />
                     <img src={hoverCover} alt="" className="show" />
                   </div>
-                  <h1>Design & Branding</h1>
+                  <h1>Design & Production</h1>
                   <span>View Services</span>
                 </div>
               </Link>
             </div>
+            {/* Promotional Gifts */}
             <div onClick={() => setClick(false)}>
-              <Link to="/Advertising">
+              <Link to="/Promotional-Gifts">
                 <div className="box">
                   <div className="img">
                     <img src={cover} alt="" />
@@ -62,98 +64,54 @@ const MainServices = () => {
                 </div>
               </Link>
             </div>
+            {/* Interior Design */}
             <div onClick={() => setClick(false)}>
-              <Link to="/Advertising">
+              <Link to="/Interior-Design">
                 <div className="box">
                   <div className="img">
                     <img src={cover} alt="" />
                     <img src={hoverCover} alt="" className="show" />
                   </div>
-                  <h1>Production & Installation</h1>
+                  <h1>Interior Design</h1>
                   <span>View Services</span>
                 </div>
               </Link>
             </div>
+            {/* Digital Solution */}
             <div onClick={() => setClick(false)}>
-              <Link to="/Advertising">
+              <Link to="/Digital-Solution">
                 <div className="box">
                   <div className="img">
                     <img src={cover} alt="" />
                     <img src={hoverCover} alt="" className="show" />
                   </div>
-                  <h1>Digital Printing</h1>
+                  <h1>Digital Solution</h1>
                   <span>View Services</span>
                 </div>
               </Link>
             </div>
+            {/* Digital Offset Printing */}
             <div onClick={() => setClick(false)}>
-              <Link to="/Advertising">
+              <Link to="/Digital-Offset-Printing">
                 <div className="box">
                   <div className="img">
                     <img src={cover} alt="" />
                     <img src={hoverCover} alt="" className="show" />
                   </div>
-                  <h1>Digital Solutions</h1>
+                  <h1>Digital Offset Printing</h1>
                   <span>View Services</span>
                 </div>
               </Link>
             </div>
+            {/* Billboard Manufacturing */}
             <div onClick={() => setClick(false)}>
-              <Link to="/Advertising">
+              <Link to="/Billboard-Manufacturing">
                 <div className="box">
                   <div className="img">
                     <img src={cover} alt="" />
                     <img src={hoverCover} alt="" className="show" />
                   </div>
-                  <h1>Billboards</h1>
-                  <span>View Services</span>
-                </div>
-              </Link>
-            </div>
-            <div onClick={() => setClick(false)}>
-              <Link to="/Advertising">
-                <div className="box">
-                  <div className="img">
-                    <img src={cover} alt="" />
-                    <img src={hoverCover} alt="" className="show" />
-                  </div>
-                  <h1>Signage (indoor, outdoor)</h1>
-                  <span>View Services</span>
-                </div>
-              </Link>
-            </div>
-            <div onClick={() => setClick(false)}>
-              <Link to="/Advertising">
-                <div className="box">
-                  <div className="img">
-                    <img src={cover} alt="" />
-                    <img src={hoverCover} alt="" className="show" />
-                  </div>
-                  <h1>Formatting Printing</h1>
-                  <span>View Services</span>
-                </div>
-              </Link>
-            </div>
-            <div onClick={() => setClick(false)}>
-              <Link to="/Advertising">
-                <div className="box">
-                  <div className="img">
-                    <img src={cover} alt="" />
-                    <img src={hoverCover} alt="" className="show" />
-                  </div>
-                  <h1>Ecommerce</h1>
-                  <span>View Services</span>
-                </div>
-              </Link>
-            </div>
-            <div onClick={() => setClick(false)}>
-              <Link to="/Advertising">
-                <div className="box">
-                  <div className="img">
-                    <img src={cover} alt="" />
-                    <img src={hoverCover} alt="" className="show" />
-                  </div>
-                  <h1>Media Production</h1>
+                  <h1>Billboard Manufacturing</h1>
                   <span>View Services</span>
                 </div>
               </Link>

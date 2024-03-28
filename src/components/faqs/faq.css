@@ -1,29 +1,14 @@
-.price .items {
-  padding: 40px;
-  text-align: center;
-}
-.price h1 {
-  font-size: 50px;
-  margin: 20px 0;
-  color: #1eb2a6;
-}
-.price h1 span {
-  font-size: 20px;
-  margin-right: 5px;
-  color: #000;
-}
-.price p {
-  color: grey;
-  margin: 40px 0;
-}
 /*--------------faq-------------*/
+.faq {
+  margin-top: -110px;
+}
 .faq .container {
   max-width: 70%;
   border-radius: 5px;
 }
 .faq .box {
-  background-color: #fff;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
+  width: 100%;
 }
 .faq button {
   padding: 10;
@@ -46,3 +31,48 @@
 }
 
 /*--------------faq-------------*/
+@media (max-width: 500px) {
+  .back h1 {
+    font-size: 60px;
+    font-weight: 400;
+  }
+  .faq {
+    display: flex;
+    flex-direction: column;
+    margin: -120px;
+    margin-top: 35px;
+    margin-bottom: 50px;
+  }
+}
+@media (max-width: 1300px) {
+  #heading {
+    text-align: center;
+    padding: 4px 0;
+    margin-top: 32rem;
+  }
+}
+
+@media (max-width: 600px) {
+  #heading h1 {
+    font-size: 35px;
+    margin: 60px 0;
+    text-transform: capitalize;
+  }
+  .back h1 {
+    font-size: 60px;
+    font-weight: 400;
+  }
+  #heading {
+    text-align: center;
+    padding: 4px 0;
+    margin-top: 27rem;
+  }
+}
+
+@media (max-width: 400px) {
+  #heading {
+    text-align: center;
+    padding: 4px 0;
+    margin-top: 16rem;
+  }
+}

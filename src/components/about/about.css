@@ -1,4 +1,143 @@
-.aboutHome {
+/* image about */
+.portfolio {
+  padding-top: 0px;
+  padding-bottom: 50px;
+}
+
+.portfolio .imgs-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  justify-content: center;
+}
+
+.portfolio .imgs-container .box {
+  position: relative;
+  overflow: hidden;
+  padding: 3px;
+}
+
+.portfolio .imgs-container .box:hover .caption {
+  bottom: 0;
+}
+
+.portfolio .imgs-container .box:hover img {
+  transform: rotate(3deg) scale(1.4);
+  -webkit-transform: rotate(3deg) scale(1.4);
+  -moz-transform: rotate(3deg) scale(1.4);
+  -ms-transform: rotate(3deg) scale(1.4);
+  -o-transform: rotate(3deg) scale(1.4);
+}
+
+@media (min-width: 768px) {
+  .portfolio .imgs-container .box {
+    flex-basis: 50%;
+  }
+}
+
+@media (min-width: 1199px) {
+  .portfolio .imgs-container .box {
+    flex-basis: 25%;
+  }
+}
+
+.portfolio .imgs-container .box img {
+  max-width: 100%;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+
+.portfolio .imgs-container .box .caption {
+  position: absolute;
+  left: 0;
+  padding: 20px;
+  background-color: #f2db2b;
+  width: 100%;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+  bottom: -100%;
+}
+
+.portfolio .imgs-container .box .caption h4 {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.portfolio .imgs-container .box .caption p {
+  color: white;
+}
+
+/* about sction 1*/
+.container-about {
+  max-width: 85%;
+  margin: auto;
+
+  display: flex;
+  justify-content: space-between;
+  margin-top: -110px;
+}
+
+.image-container {
+  width: 60%;
+}
+
+.image-container img {
+  max-width: 80%;
+  height: auto;
+  border-radius: 2%;
+}
+
+.about-container {
+  width: 50%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+}
+
+.about-container h1 {
+  color: #333;
+  font-size: 47px;
+}
+
+.about-container p {
+  color: #666;
+}
+@media screen and (max-width: 768px) {
+  .container-about {
+    float: none;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 32px;
+    margin-top: -50px;
+  }
+  .image-container img {
+    max-width: 167%;
+  }
+  .about-container {
+    text-align: center;
+    justify-content: center;
+    width: 94%;
+  }
+  .servForm {
+    padding-top: 0px;
+  }
+}
+/* our services section */
+.ourservices {
+  text-align: center;
+  margin-top: 60px;
+  font-size: 30px;
+}
+-------------- .aboutHome {
   height: auto;
 }
 .aboutHome #heading {

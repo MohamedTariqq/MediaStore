@@ -54,11 +54,3 @@
   background-color: rgb(205, 205, 6);
   color: #fff;
 }
-.team .manager {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 19%;
-  margin-bottom: 20px;
-  margin-top: -80px;
-}

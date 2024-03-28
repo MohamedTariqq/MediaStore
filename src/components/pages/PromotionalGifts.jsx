@@ -50,7 +50,7 @@ const ServiceOne = () => {
         <ImageComponent />
         <TextComponent />
       </div>
-      <section className="contacts padding">
+      <section className="contacts servForm">
         <div className="container shadow flexSB">
           <div className="right row">
             <h1>Send information to contact</h1>

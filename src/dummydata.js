@@ -251,6 +251,11 @@ export const manager = [
     name: "Hussain AL Yami",
     work: "CEO & FOUNDER",
   },
+  {
+    cover: "./images/team/t1.webp",
+    name: "Ph.D Adrian Molises",
+    work: "DEVELOPER AND LEAD INSTRUCTOR",
+  },
 ];
 export const team = [
   {
@@ -421,6 +426,7 @@ export const testimonal = [
     cover: "./images/testo/t3.webp",
   },
 ];
+
 export const servicesData = [
   {
     title: "Web Development",

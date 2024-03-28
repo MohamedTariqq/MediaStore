@@ -1,7 +1,13 @@
 import React, { useRef, useState } from "react";
 import { faq } from "../../dummydata";
+import { motion } from "framer-motion";
 import Heading from "../common/heading/Heading";
-
+import {
+  containerVariants,
+  desVaraints,
+  tagVaraints,
+  titleVaraints,
+} from "../../utils/animation";
 const Faq = () => {
   const [click, setClick] = useState(false);
 
@@ -14,8 +20,13 @@ const Faq = () => {
 
   return (
     <>
-      <Heading subtitle="FAQS" title="Frequesntly Ask Question" />
-      <section className="faq">
+      {/* <Heading subtitle="FAQS" title="Frequesntly Ask Question" /> */}
+      <motion.section
+        initial="offscreen"
+        whileInView={"onscreen"}
+        variants={titleVaraints}
+        className="faq"
+      >
         <div className="container">
           {faq.map((val, index) => (
             <div className="box">
@@ -41,7 +52,7 @@ const Faq = () => {
             </div>
           ))}
         </div>
-      </section>
+      </motion.section>
     </>
   );
 };

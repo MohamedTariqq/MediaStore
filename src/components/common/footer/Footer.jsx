@@ -4,8 +4,8 @@ import "./footer.css";
 const Footer = () => {
   return (
     <>
-      <section className="newletter">
-        <div className="container flexSB">
+      <section className="newletter  ">
+        <div className="container flexSB ">
           <div className="left row">
             <h1>Newsletter - Stay tune and get the latest update</h1>
             <span>Far far away, behind the word mountains</span>
@@ -17,24 +17,26 @@ const Footer = () => {
         </div>
       </section>
       <footer>
-        <div className="container padding">
-          <div className="box logo">
+        <div className="container padding footer-boxs">
+          <div className="box logo ">
             <h1>MEDIA STORE</h1>
             <span>Print Cool Things & Design Some of Them</span>
             <p>
               A small river named Duden flows by their place and supplies it
               with the necessary regelialia.
             </p>
-            <a
-              href="https://www.google.com.eg/webhp?source=search_app&gws_rd=cr"
-              target="__blank"
-            >
-              <i className="fab fa-facebook-f icon"></i>
-            </a>
-            <i className="fab fa-instagram icon"></i>
-            <i className="fab fa-tiktok icon"></i>
+            <div className="social">
+              <a
+                href="https://www.google.com.eg/webhp?source=search_app&gws_rd=cr"
+                target="__blank"
+              >
+                <i className="fab fa-facebook-f icon"></i>
+              </a>
+              <i className="fab fa-instagram icon"></i>
+              <i className="fab fa-tiktok icon"></i>
+            </div>
           </div>
-          <div className="box link">
+          <div className="box link ">
             <h3>Explore</h3>
             <ul>
               <li>About Us</li>
@@ -43,7 +45,7 @@ const Footer = () => {
               <li>Contact us</li>
             </ul>
           </div>
-          <div className="box link">
+          <div className="box link ">
             <h3>Quick Links</h3>
             <ul>
               <li>Contact Us</li>
@@ -53,13 +55,15 @@ const Footer = () => {
             </ul>
           </div>
 
-          <div className="box last">
+          <div className="box last ">
             <h3>Have a Questions?</h3>
             <ul>
               <li>
                 <i className="fa fa-map"></i>
-                City Center, Shh Rashid Bin Saeed Street (Airport Street - near
-                Centro Hotel - Abu Dhabi)
+                <span>
+                  City Center, Shh Rashid Bin Saeed Street (Airport Street -
+                  near Centro Hotel - Abu Dhabi)
+                </span>
               </li>
               <li>
                 <i className="fa fa-phone-alt"></i>

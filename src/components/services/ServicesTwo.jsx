@@ -4,14 +4,26 @@ import Heading from "../common/heading/Heading";
 import { Link } from "react-router-dom";
 import cover from "../images/o1.png";
 import hoverCover from "../images/o1.1.png";
+import { motion } from "framer-motion";
+import {
+  containerVariants,
+  desVaraints,
+  tagVaraints,
+  titleVaraints,
+} from "../../utils/animation";
 const MainServices = () => {
   const [click, setClick] = useState(false);
 
   return (
     <>
-      <section className="online">
+      <motion.section
+        initial="offscreen"
+        whileInView={"onscreen"}
+        variants={titleVaraints}
+        className="online"
+      >
         <div className="container">
-          <div className="content grid3">
+          <motion.div className="content">
             {/* Advertising&Markteing */}
             <div onClick={() => setClick(false)}>
               <Link to="/Advertising&Marketing">
@@ -116,9 +128,9 @@ const MainServices = () => {
                 </div>
               </Link>
             </div>
-          </div>
+          </motion.div>
         </div>
-      </section>
+      </motion.section>
     </>
   );
 };
